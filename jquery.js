@@ -30,13 +30,13 @@ function displayImg(e) {
     dots.eq(position - 1).addClass('active');
 }
 
-$('.img-slider').click(function(){$('.slide').css('border', '4px solid black') });
-$('.img-slider').dblclick(function(){$('.slide').css('border', 'none') });
-$('.more').hover(function(){
-    $('#down-arrow').animate({
-        height : '80px',
-    })
-})
+// $('.img-slider').click(function(){$('.slide').css('border', '4px solid black') });
+// $('.img-slider').dblclick(function(){$('.slide').css('border', 'none') });
+// $('.more').hover(function(){
+//     $('#down-arrow').animate({
+//         height : '80px',
+//     })
+// })
 
 //AJAX
 // function loadDoc() {
